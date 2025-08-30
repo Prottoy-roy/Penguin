@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>penguin tailwind</title>
+  <style>
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+}
+  .bebas-neue {
+    font-family: "Bebas Neue", sans-serif;
+}
+  </style>
+</head>
+<body class="font-roboto">
+  <header class="bg-[#FFFBF0] pl-4">
+    <nav class="flex items-center justify-between">
+      <div>
+        <h2 class="font-bold text-xl"><img src="icons/logo.png" alt="logo"><span class="text-[#A4BC46]">penguin</span>Fashion</h2> 
+      </div>
+      <div class="flex space-x-4">
+        <h4 class="text-[#3C3C3C]">Home</h4>
+        <h4 class="text-[#3C3C3C]">Products</h4>
+        <h4 class="text-[#3C3C3C]">About us</h4>
+        <h4 class="text-[#3C3C3C]">Contact us</h4>
+      </div>
+    </nav>
+    <div class="md:flex md:items-center md:justify-around">
+      <div>
+        <h2 class="bebas-neue text-7xl uppercase"><span class=" text-orange-400">Be the penguins</span><br><span class="text-gray-700">of winter</span></h2>
+        <p class="text-base text-gray-500">we have a lot of collection for winters.we have a great discount.</p>
+        <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+      </div>
+      <div>
+        <img src="images/model.png" alt="model">
+      </div>
+    </div>
+  </header>
+  <main class="max-w-7xl mx-auto">
+     <section id="page-2" class="my-12">
+      <!-- womans jacket card -->
+        <h2 class="uppercase text-5xl bebas-neue">woman jacket</h2>
+      <div class="card-container grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3">
+        <!-- jacket card -->
+        <div class="rounded-3xl drop-shadow-lg card p-5 space-y-4">
+          <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="images/jacket-1.png" alt="womans-jacket">
+          <h4 class="text-2xl text-[#363958] font-roboto text-bold">yellow coat jacket</h4>
+          <p class="text-xl">This is a yellow coat jacket.this jacker is very good for winter season.</p>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+        <!-- jacket card -->
+        <div class="rounded-3xl drop-shadow-lg card p-5 space-y-4">
+          <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="images/jacket-2.png" alt="womans-jacket">
+          <h4 class="text-2xl text-[#363958] font-roboto text-bold">ladies jacket</h4>
+          <p class="text-xl">This is a yellow coat jacket.this jacker is very good for winter season.</p>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+        <!-- jacket card -->
+        <div class="rounded-3xl drop-shadow-lg card p-5 space-y-4">
+          <img class="rounded-3xl p-5 bg-[#F1F1F1]" src="images/jacket-3.png" alt="womans-jacket">
+          <h4 class="text-3xl font-roboto text-[#363958] text-bold">womens coat jacket</h4>
+          <p class="text-xl">This is a yellow coat jacket.this jacker is very good for winter season.</p>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-4xl">$234</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+      </div>
+     </section>
+     <section class="my-12">
+      <!-- mans jacket -->
+       <h2 class="uppercase bebas-neue text-[#363958] text-5xl">Man jacket</h2>
+       <div class="man-card grid grid-cols1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="space-y-4 rounded-3xl drop-shadow-lg p-5">
+          <img class="rounded-3xl bg-[#F1F1F1]" src="images/jacket-4.png" alt="man jacket">
+          <h3 class="font-bold text-[#363958] text-xl">Snow bord jacket mans</h3>
+          <h5 class="text-xl ">A man jacket.yellow and some lines in front of this jacket.</h5>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-3xl font-black">$235</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+        <div class="space-y-4 rounded-3xl drop-shadow-lg p-5">
+          <img class="rounded-3xl bg-[#F1F1F1]" src="images/jacket-5.png" alt="man jacket">
+          <h3 class="font-bold text-[#363958] text-xl">Man leather jackets</h3>
+          <h5 class="text-xl ">A man jacket.it makes by leathers and best quality of leathers.</h5>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-3xl font-black">$235</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+        <div class="space-y-4 rounded-3xl drop-shadow-lg p-5">
+          <img class="rounded-3xl bg-[#F1F1F1]" src="images/jacket-6.png" alt="man jacket">
+          <h3 class="font-bold text-[#363958] text-xl">Man casual jackets</h3>
+          <h5 class="text-xl ">A man jacket.this jacket is glowing in your life.and it is standert for all men</h5>
+          <div class="flex justify-between">
+            <h2 class="text-[#FABE4C] text-3xl font-black">$235</h2>
+            <button class="text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] bg-green-400 py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping mr text-white"></i>Buy now</button>
+          </div>
+        </div>
+       </div>
+     </section>
+  </main>
+  <footer class="max-w-7xl mx-auto">
+    <div class="lg:flex lg:space-y-4 justify-between">
+      <div class="p-14">
+        <div class="flex items-center drop-shadow-lg">
+          <img class="w-30 p-7" src="icons/box.png" alt="box">
+        <div>
+          <h3>Free exchange</h3>
+          <h4>one one the main reasons you can shopinng peace of mind.</h4>
+        </div>
+      </div>
+      <div class="flex items-center drop-shadow-lg">
+          <img class="w-30 p-7" src="icons/house.png" alt="house">
+        <div>
+          <h3>Find the perfect fit</h3>
+          <h4>Everybody is different thats why we have a different products</h4>
+        </div>
+      </div>
+      <div class="flex items-center drop-shadow-lg">
+          <img class="w-30 p-7" src="icons/question.png" alt="questions">
+        <div>
+            <h4>Contact Our seller</h4>
+            <h5>they are here to help you.</h5>
+        </div>  
+      </div>
+      </div>
+      <div>
+        <img src="images/shopping.png" alt="Go-for-shopping">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
